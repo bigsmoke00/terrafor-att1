@@ -1,0 +1,20 @@
+variable "region" {
+  description = "regiao"
+  default     = "us-east-2"
+}
+
+variable "name" {
+  description = "Nome do servidor"
+  default     = "teste1"
+}
+
+variable "env" {
+  description = "tipo de ambiente"
+  default     = "hml"
+}
+
+variable "instance_type" {
+  description = "shape da vm"
+  default     = "t2.micro"
+}
+
